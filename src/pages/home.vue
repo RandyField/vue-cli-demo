@@ -36,6 +36,7 @@ export default {
      this.$http.get('http://47.95.232.44:8088/api/Vue/get').then((result)=>{
        this.items=JSON.parse(result.body).goods;
        console.log(JSON.parse(result.body).goods);
+       console.log(JSON.parse(result.body).goods);
      })
   }
 }
